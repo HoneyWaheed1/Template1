@@ -1,0 +1,1533 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>HomePage</title>
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link type="text/css" rel="Stylesheet" href="css/bootstrap.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+<style>
+   .dropdown-content a:hover {
+   background-color:#ec1d24;
+   color:white;
+   
+   }
+   .navb
+   {
+       width:150px;
+       height:100px; 
+   }
+   @media(max-width:330px)
+   {
+          .navb
+   {
+       width:120px;
+       height:90px; 
+   }
+   }
+   .btnmodal
+   {
+       background-color:#08338f;
+   }
+   .btnmodal:hover
+   {
+       background-color:#001c59;
+   }
+   .btnsubmit
+   {
+       background-color:#cf1117d6;
+   }
+   .btnsubmit:hover
+   {
+       background-color:#c10107;
+   }
+   .icons
+   {
+       font-size:xx-large;
+       color:#08338f;
+   }
+   .icons:hover
+   {
+       cursor:pointer;
+       color:#ec1d24;
+   }
+   .carousl
+   {
+       margin-top:3rem;
+   }
+   .showatmobile
+   {
+       display:none;
+   }
+   .card-title
+   {
+       font-size:larger;
+       font-weight:bold;
+   }
+   
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+    margin-left:0%;
+    background-color:white;
+    display:block;   
+	color:black;
+                                    
+}
+.navlinks
+{
+    color:white;
+    font-size:large;
+     font-weight:700;
+}
+.navlinks:hover
+{
+    color:black;
+    font-size:large;
+     font-weight:700;
+}
+
+ .iconlinks
+        {
+            margin-top:auto;
+             color:White;
+        }
+          .iconlinks:hover
+        {
+             color:black;
+        }
+  .productcontainer2
+    {
+        display:none;
+    }
+    .prodcontainer
+{
+    width:80%;
+}
+/*.aa:hover
+{
+   color:White;
+   margin-left:10px;
+    padding:4px;
+    transition:0.8s;
+    border-radius:100px;
+    border:1px solid white;
+}*/
+.container-fluidxr
+{
+    display:none;
+}
+@media(max-width:1500px)
+{
+    .prodcontainer
+{
+    display:none;
+}
+.productcontainer2
+    {
+        display:block;
+        width:80%;
+    }
+}
+
+@media(max-width:1300px)
+{
+    .caros-img
+{
+    height:400px;
+}
+}
+@media(max-width:990px)
+{
+     .iconlinks
+            {
+                margin-top:0.7rem;
+            }
+             .carousl
+   {
+       margin-top:6rem;
+   }
+   .card-title
+   {
+       font-size:large;
+       font-weight:500;
+   }
+    .cc
+    {
+     
+        text-indent:10px;
+        transition:0.9s;        
+        width:250px;        
+        line-height:45px;
+    }
+   
+       .caros-img
+{
+    height:200px;
+}
+    
+     .li
+    {
+        border-bottom:1px solid black;        
+    }
+    .aa:hover
+    {
+         border:0px solid transparent;
+   margin-left:10px;
+   display:block;
+    transition:0.7s;
+    border-radius:100px;
+    }
+    
+}
+
+@media(max-width:500px)
+{
+   .productcontainer2
+   {
+       display:none;
+   }
+        .prodcontainer
+{
+    width:94%;
+    display:block;
+}
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top:;
+  left: 0;
+  background-color: #08338f;
+  overflow-x:hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.bodyconatiner
+{
+    margin-top:150px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.ccc
+{
+    display:none;
+}
+
+.aaa
+{
+     text-decoration:none;
+     cursor:pointer;
+     color:Black; 
+     font-size:17px;
+     font-weight:400;
+}
+.brc
+{
+    font-size:25px;
+}
+
+@media(max-width:990px)
+{
+    .ccc
+    {
+        display:block;
+        
+    }
+    .brc
+    {
+        font-size:13px;
+    }
+    
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ height:100%;
+}
+.bodyconatiner
+{
+    margin-top:150px;
+}
+
+}
+@media(max-width:768px)
+{
+     .carousl
+   {
+       margin-top:28%;
+       margin-bottom:1rem;
+   }
+   .search
+   {
+       display:none;
+   }
+   .showatmobile
+   {
+       display:block;
+   }
+      .icons
+   {
+       font-size:x-large;
+       color:#08338f;
+   }
+}
+@media(max-width:1065px)
+{
+.aaa
+{
+   font-size:15px;
+}
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+/*-----------------------------------------------------------------------Hover-----------------------------------------------------------------*/
+
+
+
+.box{
+    background: #0a212f;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+} 
+.box img{
+    width: 100%;
+    height: auto;
+    transition: all .5s ease 0.1s;
+}
+.box:hover img{
+    opacity: 0.25;
+    filter: blur(3px);
+    transform: scale(1.1);
+}
+.card
+{
+    color:white;
+}
+.card:hover
+{
+    color:#08338f;
+}
+.box .box-content{
+    width: 100%;
+    transform: translateX(-50%) translateY(-50%);  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.box .box-content:before{
+    content: "";
+    height: 5px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid#fff;
+    border-radius: 10px;
+    opacity: 0;
+    transform:translateY(-50%);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    right: 50%;
+    transition: all 0.4s;
+}
+.box:hover .box-content:before{
+    opacity: 0.6;
+    left: 50px;
+    right: 50px;
+}
+.box .title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    opacity: 0;
+    transition: all 0.5s linear 0.2s;
+}
+.box .post{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    opacity: 0;
+    transition: all 0.5s linear 0.2s;
+}
+.box:hover .title,
+.box:hover .post{
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    opacity: 1; 
+}
+.box .icon{
+    padding: 0;
+    margin-bottom:-15px ;
+    list-style: none;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 40px;
+    left:50%;
+    
+    transition: all .5s ease-in-out;
+}
+.box:hover .icon{ opacity: 1; }
+.box .icon li{
+    margin: 0 3px;
+    display: inline-block;
+}
+.box .icon li small{
+    color: black;
+    font-size: 25px;
+    background-color:white;
+    line-height: 33px;
+    width: 150px;
+    height: 45px;
+    border-radius:0 0 50% 50%;
+    border: 2px solid white;
+    display: block;
+    position: relative;
+    transition: all .5s ease 0s;
+}
+.box .icon li small:hover{
+    background:#ec1d24;;
+    cursor:pointer;
+      border: 2px solid #ec1d24;;
+    color:white;
+    
+    text-shadow: 0 0 7px #97562c;
+}
+@media only screen and (max-width:990px){
+    .box{ margin: 0 0 0px; }
+
+}rceMappingURL=main.css.map */
+
+
+ <!----------------------------------------------------------------------------------Scrolling Java Script---------------------------------------------------------------------------------->
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-child(1){
+  color: #e0ffff;
+  }
+section:nth-child(2){
+  color: #42455a;
+  background: #e0ffff;
+} 
+section:nth-child(3){
+  color: #e0ffff;
+}
+section:nth-child(4){
+  color: #42455a;
+  background: #e0ffff;
+}
+section .container{
+  margin: 100px;
+}
+section h1{
+  font-size: 3rem;
+  margin: 20px;
+}
+section h2{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+section .text-container{
+   display: flex;
+}
+section .text-container .text-box{
+  margin: 20px;
+  padding: 20px;
+  background: #00c2cb;
+}
+section .text-container .text-box h3{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px){
+  section h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  section .text-container{
+    flex-direction: column;
+  }
+}
+/*---------------------------- horizontal vertical changing-------------------------------*/
+/*----------------------------Use .revel class for animation------------------------------*/
+.revealup{
+  position: relative;
+  transform: translatey(100px);
+  opacity: 0;
+  transition: 1.5s all ease;
+}
+
+.revealup.active{
+  transform: translatey(0);
+  opacity: 1;
+}
+.revealleft{
+  position: relative;
+  transform: translatex(-250px);
+  opacity: 0;
+  transition: 1.5s all ease;
+}
+
+.revealleft.active{
+  transform: translatex(0);
+  opacity: 1;
+}
+.revealright{
+  position: relative;
+  transform: translatex(-150px);
+  opacity: 0;
+  transition: 1.7s all ease;
+}
+
+.revealright.active{
+  transform: translatex(0);
+  opacity: 1;
+}
+
+/*-------------------------------------------------Carousel--------------------------------------------------------------------*/
+ :root {
+  --white: #fff;
+  --red: #e74c3c;
+  --black: #000;
+  --img-color: #ededed;
+  --overlay: rgba(0, 0, 0, 0.75);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+
+  max-width: 100%;
+  height: auto;
+background-color: var(--img-color);
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input[type="radio"] {
+  position: relative;
+  bottom: 0;
+  left: -9999px;
+}
+
+.bodycolor {
+  color: var(--green);
+  margin: 20px 0;
+  font-family: sans-serif;
+}
+
+.containercarousel {
+  max-width: 450px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.featured-wrapper {
+  position: relative;
+}
+
+.featured-wrapper .featured-list {
+  display: grid;
+}
+
+.featured-wrapper .featured-list li {
+  grid-column: 1;
+  grid-row: 1;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.featured-wrapper .arrows label::before,
+.featured-wrapper .arrows label::after {
+
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--black);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-color: var(--white);
+  opacity: 0.5;
+  transition: opacity 0.25s;
+}
+
+.featured-wrapper .arrows label::before {
+  left: 10px;
+}
+
+.featured-wrapper .arrows label::after {
+  right: 10px;
+}
+
+.featured-wrapper .dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translatex(-50%);
+  display: flex;
+}
+
+.featured-wrapper .dots li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.featured-wrapper .dots label {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+  transition: background 0.25s;
+}
+
+.featured-wrapper .dots label:hover {
+  background: currentcolor;
+}
+
+.thumb-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  margin-top: 20px;
+}
+
+.thumb-list label {
+  display: grid;
+}
+
+.thumb-list img,
+.thumb-list .outer {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.thumb-list .outer {
+  display: grid;
+  place-items: center;
+  transition: background 0.25s;
+}
+
+.thumb-list .inner {
+  font-size: 18px;
+  opacity: 0;
+  transform: translatey(20px);
+  transition: all 0.25s;
+}
+
+/* mimic click event
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+[id="image1"]:checked ~ .containercarousel .featured-list li:nth-child(1),
+[id="image2"]:checked ~ .containercarousel .featured-list li:nth-child(2),
+[id="image3"]:checked ~ .containercarousel .featured-list li:nth-child(3),
+[id^="image"]:checked ~ .containercarousel .arrows [for^="image"]:hover::before,
+[id^="image"]:checked ~ .containercarousel .arrows [for^="image"]:hover::after {
+  opacity: 1;
+}
+
+[id="image1"]:checked ~ .containercarousel .arrows [for="image3"]::before,
+[id="image2"]:checked ~ .containercarousel .arrows [for="image1"]::before,
+[id="image3"]:checked ~ .containercarousel .arrows [for="image2"]::before {
+  content: '';
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow-prev-slideshow.svg);
+}
+
+[id="image1"]:checked ~ .containercarousel .arrows [for="image2"]::after,
+[id="image2"]:checked ~ .containercarousel .arrows [for="image3"]::after,
+[id="image3"]:checked ~ .containercarousel .arrows [for="image1"]::after {
+  content: '';
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow-next-slideshow.svg);
+}
+
+[id="image1"]:checked ~ .containercarousel .dots [for="image1"],
+[id="image2"]:checked ~ .containercarousel .dots [for="image2"],
+[id="image3"]:checked ~ .containercarousel .dots [for="image3"] {
+  background: currentcolor;
+}
+
+[id="image1"]:checked ~ .containercarousel [for="image1"] .outer,
+[id="image2"]:checked ~ .containercarousel [for="image2"] .outer,
+[id="image3"]:checked ~ .containercarousel [for="image3"] .outer {
+  background: var(--overlay);
+}
+
+[id="image1"]:checked ~ .containercarousel [for="image1"] .inner,
+[id="image2"]:checked ~ .containercarousel [for="image2"] .inner,
+[id="image3"]:checked ~ .containercarousel [for="image3"] .inner {
+  opacity: 1;
+  transform: none;
+}
+
+
+/* footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer {
+  color: var(--black);
+  text-align: right;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.page-footer span {
+  color: var(--red);
+}
+</style>
+<script>
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        /*
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";*/
+    }
+
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        document.body.style.backgroundColor = "white";
+    }
+</script>
+     <!----------------------------------------------------------------------------------Scrolling Java Script---------------------------------------------------------------------------------->
+
+    <script>
+        /*------------Scroll Animation Java Scrit----------------*/
+        function reveal() {
+            var reveals = document.querySelectorAll(".revealleft");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+    </script>
+    <script>
+        /*------------Scroll Animation Java Scrit----------------*/
+        function reveal() {
+            var reveals = document.querySelectorAll(".revealup");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+    </script>
+            
+        <script>
+            /*------------Scroll Animation Java Scrit----------------*/
+            function reveal() {
+                var reveals = document.querySelectorAll(".revealright");
+
+                for (var i = 0; i < reveals.length; i++) {
+                    var windowHeight = window.innerHeight;
+                    var elementTop = reveals[i].getBoundingClientRect().top;
+                    var elementVisible = 150;
+
+                    if (elementTop < windowHeight - elementVisible) {
+                        reveals[i].classList.add("active");
+                    } else {
+                        reveals[i].classList.remove("active");
+                    }
+                }
+            }
+
+            window.addEventListener("scroll", reveal);
+    </script>
+</head>
+<body>
+<div class="container-fluid" style="margin-bottom:11rem;" >
+<nav class=" navbar-expand-lg navbar-light  fixed-top" style="background-color:#08338f;">
+<div class="row p-2" style="background-color:#e7e4e4;">
+<div class="col-md-6 text-left mt-1 ">
+<span style="color:#08338f; font-size:larger; font-weight:bold;" class="search" >Welcome to <span style="color:#08338f; font-size:large; font-weight:normal;">Fine Sports</span></span>
+<span style="color:#08338f; font-size:large; font-weight:bold;"class="showatmobile" >Welcome to <span style="color:#08338f; font-weight:normal; font-size:large;">Fine Sports</span> <span class="float-right"><i class="fa fa-search icons" onclick="myFunctionsearch()"></i> <i class="fa fa-shopping-cart ml-3 icons"></i></span></span>
+</div>
+<div class="col-md-6 text-center search">
+<div class="row">
+<div class="col-6 ">
+<div id="myDIV">
+
+  <div class="input-group w-100 search">
+<input type="text" class="form-control searchbar form-control-sm w-50" placeholder="---Search Products---" />
+      <div class="input-group-append">
+        <span class="input-group-text"><i class="fa fa-search"></i></span>
+      </div>
+    </div>
+</div>
+</div>
+<div class="col-6">
+<i class="fa fa-search icons" onclick="myFunctionsearch()"></i> <i class="fa fa-shopping-cart ml-3 icons"></i>
+</div>
+</div>
+</div>
+</div>
+
+
+<button class="navbar-toggler bg-light mr-4" style="float:right; margin-top:2rem;" data-toggle="collapse"class="ccc" onclick="openNav()">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="row p-2 pb-2 justify-content-center">
+<span>
+<img src="logo.png" class="navbar-brand navb" style=" margin-top:-0.5rem; background-color:transparent; margin-left:1rem; color:White;font-size:35px;font-weight:bold;" />
+</span>
+                <div class="col">
+                 <div class=" collapse navbar-collapse" id="mynav">
+                    <ol class="navbar-nav marginleft" style="margin-top:3.3rem;">
+                        <li class="nav-item"><a class="nav-link pr-4 navlinks"  href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link pr-4 navlinks" href="#">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link pr-4 navlinks" href="#">Our Menu</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link pr-4 navlinks dropdown-toggle" href="#" data-toggle="dropdown">Products</a>
+                        <div class="dropdown-menu dropdown-content" style="width:250px; background-color:#fff;">
+                                        <a class="dropdown-item" style="font-weight:600" href="#">Soccer Uniform</a>
+                                        <a class="dropdown-item"style="font-weight:600" href="#">BaseBall Uniform</a>
+                                        <a class="dropdown-item" style="font-weight:600"href="#">SoftBall Uniform</a>
+                                        <a class="dropdown-item"style="font-weight:600" href="#">Hockey Uniform</a>
+                                        <a class="dropdown-item" style="font-weight:600" href="#">Vercity Jacket</a>
+                                        <a class="dropdown-item" style="font-weight:600"href="#">Lather Jacket</a>
+                                        </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link pr-4 navlinks" href="#">Contact Us</a></li>
+
+                    </ol>
+                    </div>
+                </div>
+               
+            </div>
+
+<div id="mySidenav" class="sidenav ccc cc">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+ <ol class="navbar-nav " style="margin-top:-0.4%;margin-left:5.3%;background-color:#08338f;" >
+<li class="nav-item ml-2 li"><a class="nav-link aa" style="text-decoration:none;cursor:pointer;color:white; font-size:17px;"><i class="fa fa-home"></i>&nbsp HOME</a></li>
+<li class="nav-item ml-2 dropdown li"><a class="nav-link aa dropdown-toggle " style="text-decoration:none;cursor:pointer;color:white;font-size:17px;"data-toggle="dropdown"><I class="fa fa-product-hunt"></I>&nbsp PRODUCTS</a>
+  <div class="dropdown-menu dropdown-content" style="width:250px; background-color:#2c2c2c;">
+                                        <a class="dropdown-item text-white" style="font-size:larger;"  href="#">Soccer Uniform</a>
+                                        <a class="dropdown-item text-white" style="font-size:larger;" href="#">BaseBall Uniform</a>
+                                        <a class="dropdown-item text-white" style="font-size:larger;" href="#">SoftBall Uniform</a>
+                                        <a class="dropdown-item text-white" style="font-size:larger;" href="#">Hockey Uniform</a>
+                                        <a class="dropdown-item text-white" style="font-size:larger;" href="#">Vercity Jacket</a>
+                                        <a class="dropdown-item text-white" style="font-size:larger;"href="#">Lather Jacket</a>
+                                        </div>
+</li>
+<li class="nav-item ml-2 li"><a class="nav-link aa" style="text-decoration:none;cursor:pointer;color:white;font-size:17px;"><I class="fa fa-link"></I>&nbsp SHORTCUTS</a></li>
+<li class="nav-item ml-2 li"><a class="nav-link aa" style="text-decoration:none;cursor:pointer;color:white;font-size:17px;"><I class="fa fa-street-view"></I>&nbsp OVERVIEW </a></li>
+<li class="nav-item ml-2 li"><a class="nav-link aa" style="text-decoration:none;cursor:pointer;color:white;font-size:17px;"><I class="fa fa-calendar-check-o"></I>&nbsp EVENTS </a></li>
+<li class="nav-item ml-2 li"><a class="nav-link aa" style="text-decoration:none;cursor:pointer;color:white;font-size:17px;"><I class="fa fa-question-circle"></I>&nbsp ABOUT </a></li>
+<li class="nav-item ml-2 li"><a class="nav-link aa" style="text-decoration:none;cursor:pointer;color:white;font-size:17px;"><I class="fa fa-sliders"></I>&nbsp SERVICES </a></li>
+<li class="nav-item ml-2 li lii"><a class="nav-link aa" style="text-decoration:none;cursor:pointer;color:white;font-size:17px;"><I class="fa fa-envelope"></I>&nbsp CONTACT </a></li>
+</ol>
+</div>
+</nav>
+   </div>
+
+<div class="container-fluid carousl mb-3">
+   <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Carousel1.jpg" class="caros-img" style="width:100%; height:100%;">
+    </div>
+    <div class="carousel-item">
+      <img src="carousel2.jpg" class="caros-img" style="width:100%;height:100%;">
+    </div>
+    <div class="carousel-item">
+      <img src="carousel3.jpg" class="caros-img" style="width:100%;height:100%;">
+    </div>
+   
+    <div class="carousel-item">
+      <img src="carousel4.jpg" class="caros-img" style="width:100%;height:100%;">
+    </div>
+   
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+
+<div class="container-fluid" style="background-color:#08338f; color:White;">
+<div class="row justify-content-center p-3 ">
+<div class="col-10 mb-3">
+<div class="row revealleft">
+<div class="col-sm-4 mt-3">
+<div class="row">
+<div class="col-3 text-right">
+<i class="fa fa-truck fa-2x" style="margin-top:1rem;"></i>
+</div>
+<div class="col" style="font-size:larger;">
+ Free Sample Shipping<br />
+Shipping On All Orders
+</div>
+</div>
+
+</div>
+<div class="col-sm-4 mt-3">
+<div class="row">
+<div class="col-3 text-right">
+<i class="fa  fa-money fa-2x" style="margin-top:1rem;"></i>
+</div>
+<div class="col"  style="font-size:larger;">
+ Money Guarantee<br />
+30 Day Money Back
+</div>
+</div>
+
+</div>
+<div class="col-sm-4 mt-3">
+<div class="row">
+<div class="col-3 text-right">
+<i class="fa fa-phone fa-2x" style="margin-top:1rem;"></i>
+</div>
+<div class="col"  style="font-size:larger;">
+ Online Support 24/7<br />
+Support online 24 hours a day
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid" style="background-color:#e7e4e4;">
+<div class="row">
+<div class="col-12 mt-5 mb-5">
+<div class="row justify-content-center">
+<div class="col-lg-5 mt-3  text-center">
+<img src="card1.jpg" class="revealleft" style=" width:100%;" />
+</div>
+<div class="col-lg-5 mt-3 text-left">
+<img src="card2.jpg" class="revealup" style=" width:100%;" />
+</div>
+</div>
+<div class="row justify-content-center">
+<div class="col-lg-5 mt-3 text-center">
+<img src="card3.jpg" class="revealleft" style=" width:100%;" />
+</div>
+<div class="col-lg-5 mt-3 text-center">
+<img src="card4.jpg" class=" revealup" style=" width:100%;" />
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid mt-5">
+<div class="row">
+<div class="col-12 mt-5 mb-5">
+<div class="row justify-content-center">
+<div class="col-lg-6 mt-2 text-center">
+<img src="bag.jpg" class="revealleft" style="width:50%;"/>
+</div>
+<div class="col-lg-4 revealup" style="margin-top:6rem;">
+<span style="font-size:x-large; font-weight:bold;"> What Makes Us Different?</span><br />
+<span style="width:350px; font-size:larger; ">
+ At LEATHER GROUNDS  Better Never Stops.
+We Work Extremely Hard Every Day To Improve Our Processes, Products 
+And Overall Thinking To Emulate A Powerful And Exciting Brand.
+ We Wish To Be A Market Leader For The Sports World By Offering 
+ Products That Have Been Designed For Particular Needs. We Are Always Looking 
+To Develop Our Company To Become More Resourceful And Innovate.
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid" style="background-color:Black;">
+<div class="row">
+<div class="col-12 revealleft">
+  <div class="centered" style="opacity:1; color:White; font-size:large;" >
+  <span style="opacity:10; color:White; font-size:xx-large; width:100%; font-weight:bold;">Who we are?</span><br />
+  We are manufacturer and suppliers of wears. We have also developed new products. So now we manufacture a wide range of products. We supply our products at a guaranteed competitive rate without compromising quality.</div>
+
+<img src="bike.jpg" style="width:100%; height:100%; opacity:0.5;"  />
+ </div>
+</div>
+
+</div>
+
+
+<div class="container">
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+        <div class="row">
+        <div class="col-lg-6">
+          <div class="row">                                              <!------------------Carousel-------------------->
+   <div class="col-lg-12">
+   <input type="radio" id="image1" name="image" checked>
+<input type="radio" id="image2" name="image">
+<input type="radio" id="image3" name="image">
+
+<div class="containercarousel bodycolor">
+  <div class="featured-wrapper">
+    <ul class="featured-list">
+      <li>
+        <figure>
+          <img src="product1.png" style="width:100%; height:350px;" alt="">
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="product2.png" style="width:100%; height:350px;" alt="">
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="product3.png" style="width:100%; height:350px;" alt="">
+        </figure>
+      </li>
+    </ul>
+    <ul class="arrows">
+      <li>
+        <label for="image1"></label>
+      </li>
+      <li>
+        <label for="image2"></label>
+      </li>
+      <li>
+        <label for="image3"></label>
+      </li>
+    </ul>
+    <ul class="dots">
+      <li>
+        <label for="image1"></label>
+      </li>
+      <li>
+        <label for="image2"></label>
+      </li>
+      <li>
+        <label for="image3"></label>
+      </li>
+    </ul>
+  </div>
+  <ul class="thumb-list">
+    <li>
+      <label for="image1">
+        <img src="product1.png"alt="">
+        <span class="outer">
+          <span class="inner">Caption1</span>
+        </span>
+      </label>
+    </li>
+    <li>
+      <label for="image2">
+        <img src="product2.png" alt="">
+        <span class="outer">
+          <span class="inner">Caption2</span>
+        </span>
+      </label>
+    </li>
+    <li>
+      <label for="image3">
+        <img src="product3.png"  alt="">
+        <span class="outer">
+          <span class="inner">Caption3</span>
+        </span>
+      </label>
+    </li>
+  </ul>
+</div>
+</div>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+        <div class="row">
+        <div class="col-12 mt-5">
+        <span style="font-size:xx-large; font-weight:bold; color:black;">SoftBall Uniform</span>
+        </div>
+        <div class="col-12">
+        <span style="font-size:larger; font-weight:700; color:black;" >SKU  :  <span style="font-size:large; font-weight:400; color:black;"class="p-2">SW-1601</span></span>
+        </div>
+         <div class="col-12">
+        <span style="font-size:larger; font-weight:700; color:black;" >Category  :  <span style="font-size:large; font-weight:400; color:black;"class="p-2">Uniforms</span></span>
+        </div>
+         <div class="col-12">
+        <span style="font-size:larger; font-weight:700; color:black;" >Share With  :  <span style="font-size:x-large; font-weight:400; color:black;"class="p-2"><i class="fa fa-facebook-square mt-1"></i><i class="fa fa-instagram ml-2 mt-1"></i><i class="fa fa-twitter-square ml-2 mt-1"></i></span></span>
+        </div>
+           <div class="col-12">
+         <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o mr-2"></i><strong style="font-size:large;">124 Ratings </strong> 
+        </div>
+       <div class="col-12">
+        <span style="font-size:x-large; font-weight:700; color:#f57224;" >Rs  :  <span style="font-size:x-large; font-weight:700; color:#f57224;"class="p-2">5000</span></span>
+        </div>
+         <div class="col-12">
+        <del style="font-size:x-large; font-weight:700; color:black;" >Rs : 6000</del>
+        </div>
+          <div class="col-12">
+            <label style="font-size:larger; font-weight:500; color:black;"  class="mt-3">Quantity  &nbsp &nbsp<input type="number" min="1" max="5" style="width:100px;"  /></label>  
+          </div>
+        </div>
+         <div class="col-12 mt-4">
+           <button style="font-size:x-large; font-weight:700; letter-spacing:1px; color:white; "  class="pt-1 pb-1 pl-3 pr-3 w-100 btnmodal">ADD TO ENQUIRY</button> 
+          </div>
+        </div>
+         </div>
+         
+                    
+                    
+        </div>
+     </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+<div class="container">
+    <div class="row revealleft">
+    <div class="col-12">
+    <div class="row">
+    <div class="col-lg-6">
+    <div class="row">
+    <div class="col-md-6 mt-3">
+    <div class="card">
+            <div class="box">
+                <img src="product1.png"style="background-color:#c3bebe;" class="card-img-top" />
+                 <ul class="icon">
+                    <li><a class="text-decoration-none" data-toggle="modal" data-target="#myModal"><small>Quick View</small></a></li>
+                    
+                </ul>
+                <div class="box-content">
+                    <h3 class="title">Product Image</h3>
+                    <span class="post">SoftBall Uniform</span>
+                </div>
+                   <div class="card-body " style="background-color:#08338f; margin-bottom:-1rem;" >
+            <div class="card-title" >
+            Product Image
+            </div>
+            </div>
+            </div>
+         
+   
+    </div>
+    </div>
+    <div class="col-md-6 mt-3">
+    <div class="card">
+            <div class="box">
+                <img src="product2.png" style="background-color:#c3bebe; class="card-img-top" />
+                 <ul class="icon">
+                    <li><a class="text-decoration-none" data-toggle="modal" data-target="#myModal"><small>Quick View</small></a></li>
+                    
+                </ul>
+                <div class="box-content">
+                    <h3 class="title">Product Image</h3>
+                    <span class="post">BaseBall Uniform</span>
+                </div>
+                   <div class="card-body " style="background-color:#08338f; margin-bottom:-1rem;" >
+            <div class="card-title" >
+            Product Image
+            </div>
+            </div>
+            </div>
+         
+   
+    </div>
+    </div>
+    </div>    
+    </div>
+    <div class="col-lg-6">
+    <div class="row">
+    <div class="col-md-6 mt-3">
+    <div class="card">
+            <div class="box">
+                <img src="product3.png" style="background-color:#c3bebe; class="card-img-top" />
+                 <ul class="icon">
+                    <li><a class="text-decoration-none" data-toggle="modal" data-target="#myModal"><small>Quick View</small></a></li>
+                    
+                </ul>
+                <div class="box-content">
+                    <h3 class="title">Product Image</h3>
+                    <span class="post">Hockey Uniform</span>
+                </div>
+                   <div class="card-body " style="background-color:#08338f;margin-bottom:-1rem;" >
+            <div class="card-title">
+            Product Image
+            </div>
+            </div>
+            </div>
+         
+   
+    </div>
+    </div>
+    <div class="col-md-6 mt-3">
+    <div class="card">
+            <div class="box">
+                <img src="product1.png" style="background-color:#c3bebe; class="card-img-top" />
+                 <ul class="icon">
+                    <li><a class="text-decoration-none" data-toggle="modal" data-target="#myModal"><small>Quick View</small></a></li>
+                    
+                </ul>
+                <div class="box-content">
+                    <h3 class="title">Product Image</h3>
+                    <span class="post">Varsity Jacket</span>
+                </div>
+                   <div class="card-body " style="background-color:#08338f;margin-bottom:-1rem;" >
+            <div class="card-title">
+            Product Image
+            </div>
+            </div>
+            </div>
+         
+   
+    </div>
+    </div>
+    </div>    
+    </div>
+    </div>
+    </div>
+    </div>
+    
+
+
+
+
+    
+
+
+</div>
+
+<div class="container mb-4">
+    <div class="row revealleft">
+    <div class="col-12">
+    <div class="row">
+    <div class="col-lg-6">
+    <div class="row">
+    <div class="col-md-6 mt-3">
+    <div class="card">
+            <div class="box">
+                <img src="product1.png" style="background-color:#c3bebe;" class="card-img-top" />
+                 <ul class="icon">
+                    <li><a class="text-decoration-none" data-toggle="modal" data-target="#myModal"><small>Quick View</small></a></li>
+                    
+                </ul>
+                <div class="box-content">
+                    <h3 class="title">Product Image</h3>
+                    <span class="post">SoftBall Uniform</span>
+                </div>
+                   <div class="card-body " style="background-color:#08338f;  margin-bottom:-1rem;" >
+            <div class="card-title" >
+            Product Image
+            </div>
+            </div>
+            </div>
+         
+   
+    </div>
+    </div>
+    <div class="col-md-6 mt-3">
+    <div class="card">
+            <div class="box">
+                <img src="product2.png" style="background-color:#c3bebe; class="card-img-top" />
+                 <ul class="icon">
+                    <li><a class="text-decoration-none" data-toggle="modal" data-target="#myModal"><small>Quick View</small></a></li>
+                    
+                </ul>
+                <div class="box-content">
+                    <h3 class="title">Product Image</h3>
+                    <span class="post">BaseBall Uniform</span>
+                </div>
+                   <div class="card-body " style="background-color:#08338f; margin-bottom:-1rem;" >
+            <div class="card-title">
+            Product Image
+            </div>
+            </div>
+            </div>
+         
+   
+    </div>
+    </div>
+    </div>    
+    </div>
+    <div class="col-lg-6">
+    <div class="row">
+    <div class="col-md-6 mt-3">
+    <div class="card">
+            <div class="box">
+                <img src="product3.png" style="background-color:#c3bebe; class="card-img-top" />
+                 <ul class="icon">
+                    <li><a  class="text-decoration-none" data-toggle="modal" data-target="#myModal"><small>Quick View</small></a></li>
+                    
+                </ul>
+                <div class="box-content">
+                    <h3 class="title">Product Image</h3>
+                    <span class="post">Hockey Uniform</span>
+                </div>
+                   <div class="card-body " style="background-color:#08338f; margin-bottom:-1rem;" >
+            <div class="card-title">
+            Product Image
+            </div>
+            </div>
+            </div>
+         
+   
+    </div>
+    </div>
+    <div class="col-md-6 mt-3">
+    <div class="card">
+            <div class="box">
+                <img src="product1.png" style="background-color:#c3bebe; class="card-img-top" />
+                 <ul class="icon">
+                    <li><a class="text-decoration-none" data-toggle="modal" data-target="#myModal"><small>Quick View</small></a></li>
+                    
+                </ul>
+                <div class="box-content">
+                    <h3 class="title">Product Image</h3>
+                    <span class="post">Varsity Jacket</span>
+                </div>
+                   <div class="card-body " style="background-color:#08338f; margin-bottom:-1rem;" >
+            <div class="card-title">
+            Product Image
+            </div>
+            </div>
+            </div>
+         
+   
+    </div>
+    </div>
+    </div>    
+    </div>
+    </div>
+    </div>
+    </div>
+    
+
+
+
+
+    
+
+
+</div>
+
+<div class="container-fluid" style="background-color:#e7e4e4">
+<div class="row">
+<div class="col-12 mt-5 text-center revealleft">
+<span style="font-size:xxx-large; font-weight:bold; color:#ec1d24;" >
+Shipping Method
+</span>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-6 text-center mt-5 mb-5">
+<img src="shipping1.png" class="revealleft shipimg w-50" style="background-color:transparent;" />
+</div>
+<div class="col-lg-6 mt-5 text-center mb-5">
+<img src="shipping2.png" class="revealright shipimg w-50" style="background-color:transparent;" />
+</div>
+</div>
+</div>
+
+<div class="container-fluid mt-5" style="background-color:#08338f;">
+    <div class="row">
+    <div class="col-12 mt-5 mb-5">
+    <div class="row">
+    <div class="col-lg-4 text-center revealleft mt-5">
+    <div class="row">
+    <div class="col-12 mt-4">
+    <strong style="font-size:x-large; color:white;">Contact</strong>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12">
+    <span style="font-size:larger; color:white;">5 Rue Dalou, 75015 Paris</span>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12">
+    <span ><a href="tel:+92 333-8656773" style="font-size:large; font-weight:600; color:white;">+92 333-8656773</a></span>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12">
+    <span><a href="mailto:AJ_Solutions@gmail.com" style="font-size:larger; font-weight:bold; color:white;">AJ_Solutions@gmail.com</a></span>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-4 revealup text-center mt-5">
+    <div class="row">
+    <div class="col-12 text-center mt-4 mb-3">
+    <strong style="font-size:x-large; color:White;">Join our mailing list for updates,<br />Get news & offers events.</strong>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12 input-group">
+        <input id="Text1" class="form-control form-control-lg" type="text" />
+        <button class="input-group-text btnsubmit" style=" font-size:larger; color:White; border-radius:0px;">Subscribe</button>
+    </div>
+    </div>
+
+    </div>
+    <div class="col-lg-4 revealleft text-center mt-5">
+    <div class="row">
+    <div class="col-12 mt-4">
+    <strong style="font-size:x-large; color:white;">WORKING HOURS</strong>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12">
+    <strong style="font-size:larger; color:white;">Mon – Fri :&nbsp &nbsp</strong><span style="font-size:large; color:White;">7.00am – 6.00pm</span>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12">
+    <strong style="font-size:larger; color:white;">Sat : &nbsp &nbsp </strong><span style="font-size:large; color:White;"> 7.00am – 6.00pm</span>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12">
+    <strong style="font-size:larger; color:white;"> Sun : &nbsp &nbsp </strong><span style="font-size:large; color:White;">8.00am – 6.00pm</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="row border-top" style="background-color:#e7e4e4;">
+    <div class="col-12  mb-4">
+   <div class="row">
+   <div class="col-lg-6 mt-5 text-center">
+    <strong style="font-size:larger; font-weight:normal; color:#08338f">Design And Developed By : </strong>
+    <span style="font-size:large; color:#08338f; font-weight:normal;">AJ Solutions</span>
+   </div>
+   <div class="col-lg-6 mt-5 text-center">
+   <strong style="font-size:larger; color:#08338f; font-weight:normal;"> Contact No :</strong>
+   <span style="font-size:large; color:#08338f; font-weight:normal;">+92 333-8656773</span>
+   </div>
+   </div>
+    </div>
+    </div>
+    </div>
+
+
+   <script>
+       function myFunctionsearch() {
+           var x = document.getElementById("myDIV");
+           if (x.style.display === "none") {
+               x.style.display = "block";
+           } else {
+               x.style.display = "none";
+           }
+       }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F31B1431-BD76-41EA-8239-C878BCF40C44}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication2</RootNamespace>
+    <AssemblyName>WebApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Casual-banner-slider.jpg" />
+    <Content Include="css\bootstrap-grid.css" />
+    <Content Include="css\bootstrap-grid.min.css" />
+    <Content Include="css\bootstrap-reboot.css" />
+    <Content Include="css\bootstrap-reboot.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="Hit-Pride-logo-png-1__1_-removebg-preview.png" />
+    <Content Include="index.htm" />
+    <Content Include="js\bootstrap.bundle.js" />
+    <Content Include="js\bootstrap.bundle.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="leather-bags-slider.jpg" />
+    <Content Include="leather-garment-slider.jpg" />
+    <Content Include="ProductPage.htm" />
+    <Content Include="Sports-wear-slider.jpg" />
+    <Content Include="Style.css.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="bikers.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bag.webp" />
+    <None Include="css\bootstrap-grid.css.map" />
+    <None Include="css\bootstrap-grid.min.css.map" />
+    <None Include="css\bootstrap-reboot.css.map" />
+    <None Include="css\bootstrap-reboot.min.css.map" />
+    <None Include="css\bootstrap.css.map" />
+    <None Include="css\bootstrap.min.css.map" />
+    <None Include="font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <None Include="font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <None Include="font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <None Include="font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <None Include="font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <None Include="font-awesome-4.7.0\less\animated.less" />
+    <None Include="font-awesome-4.7.0\less\bordered-pulled.less" />
+    <None Include="font-awesome-4.7.0\less\core.less" />
+    <None Include="font-awesome-4.7.0\less\fixed-width.less" />
+    <None Include="font-awesome-4.7.0\less\font-awesome.less" />
+    <None Include="font-awesome-4.7.0\less\icons.less" />
+    <None Include="font-awesome-4.7.0\less\larger.less" />
+    <None Include="font-awesome-4.7.0\less\list.less" />
+    <None Include="font-awesome-4.7.0\less\mixins.less" />
+    <None Include="font-awesome-4.7.0\less\path.less" />
+    <None Include="font-awesome-4.7.0\less\rotated-flipped.less" />
+    <None Include="font-awesome-4.7.0\less\screen-reader.less" />
+    <None Include="font-awesome-4.7.0\less\stacked.less" />
+    <None Include="font-awesome-4.7.0\less\variables.less" />
+    <None Include="font-awesome-4.7.0\scss\font-awesome.scss" />
+    <None Include="font-awesome-4.7.0\scss\_animated.scss" />
+    <None Include="font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <None Include="font-awesome-4.7.0\scss\_core.scss" />
+    <None Include="font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <None Include="font-awesome-4.7.0\scss\_icons.scss" />
+    <None Include="font-awesome-4.7.0\scss\_larger.scss" />
+    <None Include="font-awesome-4.7.0\scss\_list.scss" />
+    <None Include="font-awesome-4.7.0\scss\_mixins.scss" />
+    <None Include="font-awesome-4.7.0\scss\_path.scss" />
+    <None Include="font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <None Include="font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <None Include="font-awesome-4.7.0\scss\_stacked.scss" />
+    <None Include="font-awesome-4.7.0\scss\_variables.scss" />
+    <None Include="js\bootstrap.bundle.js.map" />
+    <None Include="js\bootstrap.bundle.min.js.map" />
+    <None Include="js\bootstrap.js.map" />
+    <None Include="js\bootstrap.min.js.map" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49519</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
